@@ -20,9 +20,9 @@ Tutorial de comandos de como criar uma vm do mac totalmente funcional podendo in
 
 3. Baixa a iso oficial do site da apple com o comando a baixo.
 
- - Catalina `./jumpstart.sh --catalina` ou `./jumpstart.sh`
- - Mojave `./jumpstart.sh --mojave`
- - High Sierra `./jumpstart.sh --high-sierra`
+- Catalina `./jumpstart.sh --catalina` ou `./jumpstart.sh`
+- Mojave `./jumpstart.sh --mojave`
+- High Sierra `./jumpstart.sh --high-sierra`
 
 4. Agora vamos criar um disco vazio com o comando `qemu-img create -f qcow2 MyDisk.qcow2 64G`
 
