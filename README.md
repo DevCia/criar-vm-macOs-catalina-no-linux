@@ -32,3 +32,21 @@ Tutorial de comandos de como criar uma vm do mac totalmente funcional podendo in
 - `-device ide-hd,bus=sata.4,drive=SystemDisk \`
 
 6. Agora é só execultar `sudo ./basic.sh`.
+
+7. Entre no utilitario de disco.
+   
+<h1 align="center">
+  <img src="./images/img1.jpg" width="300"/>
+</h1>
+
+8. Nessa ferramenta vc vai escolher o disco que foi criado na linha de comando, no meu caso de 32 gigas e se vc seguiu o tutorial a risca o seu vai ser de 64 gigas.
+
+<h1 align="center">
+  <img src="./images/img2.jpg" width="300"/>
+</h1>
+
+9. A partir de agora é a instalação normal do mac.
+
+<h1 align="center">
+  <img src="./images/img3.jpg" width="300"/>
+</h1>
