@@ -26,7 +26,7 @@ Tutorial de comandos de como criar uma vm do mac totalmente funcional podendo in
 
 4. Agora vamos criar um disco vazio com o comando `qemu-img create -f qcow2 MyDisk.qcow2 64G`
 
-5. Vamos editar o arquivo `basic.sh` para mostrar para ele que agora existe um disco novo `sudo nano basic.sh` copie para dentro essas linhas
+5. Vamos editar o arquivo `basic.sh` para mostrar para ele que agora existe um disco novo `sudo nano basic.sh` copie para dentro essas linhas no fim do arquivo.
 
 - `-drive id=SystemDisk,if=none,file=MyDisk.qcow2 \`
 - `-device ide-hd,bus=sata.4,drive=SystemDisk \`
